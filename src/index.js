@@ -8,6 +8,7 @@ import { lowerhome } from "./js/lowerhome";
 import { about } from "./js/about"
 import { menu } from "./js/menu";
 import { food } from "./js/food";
+import { smoothie } from "./js/smoothie";
 import { contact } from "./js/contact";
 import { footer } from "./js/footer";
 
@@ -19,5 +20,6 @@ content.appendChild(lowerhome);
 content.appendChild(about);
 content.appendChild(menu);
 content.appendChild(food);
+content.appendChild(smoothie);
 content.appendChild(contact);
 content.appendChild(footer);

@@ -1,4 +1,3 @@
-import { isEmptyObject } from "jquery";
 
 export const menu = (() => {
   const section = document.createElement("section");

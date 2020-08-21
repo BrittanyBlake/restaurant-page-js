@@ -6,6 +6,7 @@ import { navbar } from "./js/navbar";
 import { home } from "./js/home";
 import { lowerhome } from "./js/lowerhome";
 import { about } from "./js/about"
+import { menu } from "./js/menu";
 import { contact } from "./js/contact";
 import { footer } from "./js/footer";
 
@@ -15,5 +16,6 @@ content.appendChild(navbar);
 content.appendChild(home);
 content.appendChild(lowerhome);
 content.appendChild(about);
+content.appendChild(menu);
 content.appendChild(contact);
 content.appendChild(footer);

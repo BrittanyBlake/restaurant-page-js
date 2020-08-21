@@ -40,7 +40,7 @@ export const navbar = (() => {
     <a class="nav-link text-uppercase text-expanded" href="#">Menu</a>
   </li>
   <li class="nav-item px-lg-4">
-    <a class="nav-link text-uppercase text-expanded" href="#">Contact Us</a>
+    <a class="nav-link text-uppercase text-expanded" href="#">Find Us</a>
   </li>
 `;
   container.appendChild(navBrand);

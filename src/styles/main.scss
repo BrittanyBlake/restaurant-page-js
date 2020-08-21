@@ -73,6 +73,8 @@ p {
   background-color: rgba(255, 255, 255, 0.85);
 }
 
+
+
 #mainNav {
   background-color: rgba(47, 23, 15, 0.9);
   font-family: "Raleway";
@@ -92,6 +94,9 @@ p {
 }
 
 @media (min-width: 992px) {
+  .nav-container {
+  width: 40%;
+  }
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 0.9rem;
   }

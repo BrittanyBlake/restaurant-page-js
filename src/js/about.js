@@ -1,6 +1,7 @@
 export const about = (() => {
   const section = document.createElement("section");
   section.setAttribute("class", "page-section about-heading");
+  section.setAttribute("id", "display-about");
   const container = document.createElement("div");
   container.setAttribute("class", "container");
   const image = document.createElement("img");

@@ -27,20 +27,21 @@ export const navbar = (() => {
   collapseDiv.setAttribute("id", "navbarResponsive");
   const navList = document.createElement("ul");
   navList.setAttribute("class", "navbar-nav mx-auto");
+  navList.setAttribute("id", "tabs");
   navList.innerHTML = `
   <li class="nav-item active px-lg-4">
-    <a class="nav-link text-uppercase text-expanded" href="#">Home
+    <a class="nav-link text-uppercase text-expanded" href="#home" id="home">Home
         <span class="sr-only">(current)</span>
     </a>
   </li>
   <li class="nav-item px-lg-4">
-    <a class="nav-link text-uppercase text-expanded" href="#">About</a>
+    <a class="nav-link text-uppercase text-expanded" href="#about" id="about">About</a>
   </li>
   <li class="nav-item px-lg-4">
-    <a class="nav-link text-uppercase text-expanded" href="#">Menu</a>
+    <a class="nav-link text-uppercase text-expanded" href="#menu" id="menu">Menu</a>
   </li>
   <li class="nav-item px-lg-4">
-    <a class="nav-link text-uppercase text-expanded" href="#">Find Us</a>
+    <a class="nav-link text-uppercase text-expanded" href="#find" id="find">Find Us</a>
   </li>
 `;
   container.appendChild(navBrand);
@@ -50,3 +51,5 @@ export const navbar = (() => {
   nav.appendChild(container);
   return nav;
 })();
+
+export default navbar;

@@ -32,6 +32,10 @@ export const home = (() => {
     btn.setAttribute("href", "#");
     btn.innerHTML = `Visit us Today!`;
 
+    
+
+    
+
    
     heading.appendChild(spanOne);
     heading.appendChild(spanTwo);
@@ -44,6 +48,8 @@ export const home = (() => {
     container.appendChild(introDiv);
     sectionOne.appendChild(container);
     return sectionOne;
+
+    
 
 
 

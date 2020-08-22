@@ -1,4 +1,4 @@
-import aboutImage from "../assets/about4.jpg";
+import aboutImage from '../assets/about4.jpg';
 
 export const about = (() => {
   const section = document.createElement('section');

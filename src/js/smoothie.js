@@ -1,4 +1,4 @@
-import smoothieImage from "../assets/product3.jpg";
+import smoothieImage from '../assets/product3.jpg';
 
 export const smoothie = (() => {
   const section = document.createElement('section');

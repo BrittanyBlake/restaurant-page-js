@@ -1,4 +1,4 @@
-import homeImage from "../assets/home2.jpg";
+import homeImage from '../assets/home2.jpg';
 
 export const home = (() => {
   const sectionOne = document.createElement('section');

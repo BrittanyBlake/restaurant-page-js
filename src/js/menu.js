@@ -1,4 +1,4 @@
-import coffeeImage from "../assets/products-01.jpg";
+import coffeeImage from '../assets/products-01.jpg';
 
 export const menu = (() => {
   const section = document.createElement('section');

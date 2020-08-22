@@ -1,3 +1,5 @@
+import coffeeImage from "../assets/products-01.jpg";
+
 export const menu = (() => {
   const section = document.createElement('section');
   section.setAttribute('class', 'page-section');
@@ -22,7 +24,7 @@ export const menu = (() => {
     'class',
     'product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0',
   );
-  image.setAttribute('src', 'src/assets/products-01.jpg');
+  image.setAttribute('src', coffeeImage);
   image.setAttribute('alt', 'Coffees and teas');
   const description = document.createElement('div');
   description.setAttribute('class', 'product-item-description d-flex mr-auto');

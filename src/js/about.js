@@ -1,3 +1,5 @@
+import aboutImage from "../assets/about4.jpg";
+
 export const about = (() => {
   const section = document.createElement('section');
   section.setAttribute('class', 'page-section about-heading');
@@ -9,8 +11,7 @@ export const about = (() => {
     'class',
     'img-fluid rounded about-heading-img mb-3 mb-lg-0',
   );
-  // image.setAttribute('src', './dist/imgs/about4.jpg');
-  image.src = "dist/imgs/about4.jpg";
+  image.setAttribute('src', aboutImage);
   image.setAttribute('alt', 'Cafe interior');
   const content = document.createElement('div');
   content.setAttribute('class', 'about-heading-content');

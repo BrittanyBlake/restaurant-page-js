@@ -1,3 +1,5 @@
+import smoothieImage from "../assets/product3.jpg";
+
 export const smoothie = (() => {
   const section = document.createElement('section');
   section.setAttribute('class', 'page-section');
@@ -22,7 +24,7 @@ export const smoothie = (() => {
     'class',
     'product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0',
   );
-  image.setAttribute('src', 'src/assets/product3.jpg');
+  image.setAttribute('src', smoothieImage);
   image.setAttribute('alt', 'Smoothie bowl and fruits');
   const description = document.createElement('div');
   description.setAttribute('class', 'product-item-description d-flex mr-auto');

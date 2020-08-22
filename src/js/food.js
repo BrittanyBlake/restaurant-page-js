@@ -1,3 +1,5 @@
+import foodImage from "../assets/product2.jpg";
+
 export const food = (() => {
   const section = document.createElement('section');
   section.setAttribute('class', 'page-section');
@@ -22,7 +24,7 @@ export const food = (() => {
     'class',
     'product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0',
   );
-  image.setAttribute('src', 'src/assets/product2.jpg');
+  image.setAttribute('src', foodImage);
   image.setAttribute('alt', 'toast with poached egg');
   const description = document.createElement('div');
   description.setAttribute('class', 'product-item-description d-flex ml-auto');

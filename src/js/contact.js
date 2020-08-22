@@ -1,3 +1,4 @@
+
 export const contact = (() => {
   const section = document.createElement('section');
   section.setAttribute('class', 'page-section cta');

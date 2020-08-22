@@ -80,6 +80,9 @@ This project was built using these technologies.
 #### Clone the repository to run the app.
 
 - $ `git clone git@github.com:BrittanyBlake/restaurant-page-js`
+- `cd` into the project directory
+- Run `npm install` to install the necessary modules
+- Run `npm start` to automatically load the page on localhost:8080
 
 
 <!-- CONTACT -->

@@ -25,7 +25,7 @@ https://github.com/BrittanyBlake/restaurant-page-js
 <br />
 <p align="center">
   <a href="https://github.com/BrittanyBlake/restaurant-page-js/feature">
-    <img src="images/JS.jpg" alt="Logo" width="80" height="80">
+    <img src="https://banner2.cleanpng.com/20180605/ekx/kisspng-javascript-responsive-web-design-programmer-5b16edb4e41b02.4855169215282293009343.jpg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Restaurant Page</h3>

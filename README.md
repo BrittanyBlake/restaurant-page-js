@@ -60,7 +60,7 @@ https://github.com/BrittanyBlake/restaurant-page-js
 In this project, we were asked to build a Restaurant Page. This project is for practising DOM manipulation by dynamically rendering a simple restaurant homepage! We have just use JavaScript alone to generate the entire contents of the website.
 
 ## LIVE DEMO
- [Link to live demo](#) 
+ [Link to live demo](https://brunchclub.netlify.app/) 
 
 
 

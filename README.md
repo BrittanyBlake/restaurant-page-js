@@ -97,6 +97,7 @@ This project was built using these technologies.
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [Microverse](https://www.microverse.org/)
+* [Design Template](https://github.com/StartBootstrap/startbootstrap-business-casual)
 
 ## Show your support
 

@@ -33,7 +33,7 @@ module.exports = merge(common, {
     new CleanWebpackPlugin(),
     new CopyPlugin({
       patterns: [
-        { from: "src/assets", to: "dist/imgs" },
+        { from: "src/assets", to: "imgs" },
       ],
     }),
   ],

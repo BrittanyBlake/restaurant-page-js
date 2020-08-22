@@ -9,7 +9,7 @@ export const about = (() => {
     'class',
     'img-fluid rounded about-heading-img mb-3 mb-lg-0',
   );
-  image.setAttribute('src', 'src/assets/about4.jpg');
+  image.setAttribute('src', 'dist/imgs/about4.jpg');
   image.setAttribute('alt', 'Cafe interior');
   const content = document.createElement('div');
   content.setAttribute('class', 'about-heading-content');

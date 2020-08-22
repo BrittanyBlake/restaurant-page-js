@@ -1,3 +1,5 @@
+import homeImage from "../assets/home2.jpg";
+
 export const home = (() => {
   const sectionOne = document.createElement('section');
   sectionOne.setAttribute('class', 'page-section clearfix');
@@ -7,7 +9,7 @@ export const home = (() => {
   introDiv.setAttribute('class', 'intro');
   const image = document.createElement('img');
   image.setAttribute('class', 'intro-img img-fluid mb-3 mb-lg-0 rounded');
-  image.setAttribute('src', 'src/assets/home2.jpg');
+  image.setAttribute('src', homeImage);
   image.setAttribute('alt', 'baking image');
   const textDiv = document.createElement('div');
   textDiv.setAttribute(
